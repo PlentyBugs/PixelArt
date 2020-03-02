@@ -1,0 +1,50 @@
+body {
+    background: beige;
+}
+
+
+#workspace {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+}
+#canvas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: center;
+}
+
+#canvas div {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#palette div {
+    float: left;
+}
+
+.canvasPartUncolored {
+    border: 1px solid silver;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background: white;
+}
+.canvasPartColored {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+}
+
+.colorPalette {
+    display: inline-block;
+    border-radius: 60px;
+    width: 24px;
+    height: 24px;
+    margin: 10px 4px 4px;
+}
